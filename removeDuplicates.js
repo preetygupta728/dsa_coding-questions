@@ -4,11 +4,9 @@ let arr = [2, 4, 2, 5, 5, 7]
 let arr1 = []
 
 for (let i = 0; i < arr.length; i++) {
-
     if (arr1.indexOf(arr[i]) == -1) {
         arr1.push(arr[i])
     }
-
 }
 console.log(arr1, "approach1")
 // ===================================
