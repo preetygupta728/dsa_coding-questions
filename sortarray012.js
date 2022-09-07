@@ -16,7 +16,6 @@ for (let i = 0; i < arr.length; i++) {
 }
 console.log(arr)
 
-
 // approach with sorting
 // arr.sort() for ascending  //desc b-a
 let arr2 = [0, 2, 1, 2, 0]
