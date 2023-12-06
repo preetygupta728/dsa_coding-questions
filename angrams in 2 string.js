@@ -11,3 +11,25 @@ function anagram(){
         return "true"
     }}
 console.log(anagram())
+//
+
+function anagram(){
+    let str="listen"
+    let str2="silent"
+    let a=""
+    let b=""
+
+    let var1=str.split("").sort()
+    let var2=str2.split("").sort()
+    for(let i=0;i<var1.length;i++)
+    {
+        a=a+var1[i]
+        b=b+var2[i]
+
+    }
+
+    if(a==b){
+        return "true"
+    }
+}
+console.log(anagram())
