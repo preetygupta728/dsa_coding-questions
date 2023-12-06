@@ -10,6 +10,7 @@ var mergesort = function() {
     return nums3
 };
 console.log(mergesort())
+
 // one array
 function merge() {
     let  nums1 = [1,2,3];
