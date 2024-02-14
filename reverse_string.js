@@ -1,6 +1,6 @@
 var str ="qwerty"
 // let a=''
-// console.log(str.reverse())
+console.log(str.reverse())
 // for(let i=str.length-1;i>=0;i--){
 //     a=a+str[i]
 //     console.log(a,str[i])

@@ -1,8 +1,8 @@
 // find duplicate in an array of N+1 Integers
-let nums = [3,1,3,4,2]
+let nums = [3,1,3,4,1,2]
 
 let a=[]
-let b=0;
+let b=[];
 function findDuplicate(nums) {
 
     for(let i=0;i<nums.length;i++){
@@ -10,8 +10,8 @@ function findDuplicate(nums) {
             a.push(nums[i])
 
         }else{
-
-            b=nums[i]
+            b.push(nums[i])
+            // b= a.push(nums[i])+nums[i]
         }
 
     }
@@ -22,3 +22,30 @@ function findDuplicate(nums) {
 
 let ab=findDuplicate(nums);
 console.log(ab)
+
+
+///////////
+// find duplicate in an array of N+1 Integers
+let arr = [3,1,3,4,1,2]
+
+function findDuplicate(nums) {
+    let ob={}
+    for(let i of nums){
+        // console.log(i)
+
+        if(ob[i]) {
+            ob[i] =ob[i] +1
+            console.log(i)
+        }
+        else{
+            ob[i] =1
+        }
+
+    }
+
+    return ob
+};
+
+
+let dupl=findDuplicate(arr);
+console.log(dupl)

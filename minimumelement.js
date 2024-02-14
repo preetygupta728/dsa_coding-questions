@@ -10,6 +10,7 @@ for(let i=0;i<arr.length;i++){
         a=arr[i]
     }
 
+
     if(a>arr[i+1]){
         a=arr[i+1]
     }

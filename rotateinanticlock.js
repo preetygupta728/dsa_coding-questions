@@ -7,5 +7,13 @@ let temp=arr[arr.length-1]
 for(let i=arr.length-1;i>0;i--){
     arr[i]=arr[i-1]
 }
-arr[0]=temp
+// arr[0]=temp
 console.log(arr)
+
+
+// unshift and pop
+//
+// for(let i=0;i<2;i++){
+//   arr.unshift(arr[arr.length-1])
+// arr.pop()
+// }

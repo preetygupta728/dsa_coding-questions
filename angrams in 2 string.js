@@ -21,12 +21,15 @@ function anagram(){
 
     let var1=str.split("").sort()
     let var2=str2.split("").sort()
+    console.log(var1,var2)
+
     for(let i=0;i<var1.length;i++)
     {
         a=a+var1[i]
         b=b+var2[i]
 
     }
+    console.log(a,b)
 
     if(a==b){
         return "true"

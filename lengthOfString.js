@@ -1,11 +1,11 @@
-let str = "hare rama hare rama rama rama hare hare ";
+let str = "hhhhhellooooosssssssssss";
 let obj={}
-for (let x of str) {
-console.log(x)
-  if( obj[x]){
-      obj[x]+=1
+for (let x=0;x<str.length ;x++) {
+console.log(str[x],obj)
+  if( obj[str[x]]){
+      obj[str[x]]+=1
   }else{
-      obj[x]=1
+      obj[str[x]]=1
   }
 }
 console.log(obj)
