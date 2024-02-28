@@ -26,7 +26,7 @@ console.log(ab)
 
 ///////////
 // find duplicate in an array of N+1 Integers
-let arr = [3,1,3,4,1,2]
+let arr = [1,1,2,3,4,5,6,7,8,6,6,7,7,7,10,10];
 
 function findDuplicate(nums) {
     let ob={}

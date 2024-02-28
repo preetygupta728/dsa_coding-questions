@@ -16,3 +16,27 @@ for(let i=0;i<arr.length;i++){
 
 }
 console.log(a)
+
+
+// const maxmin = (data,n) => {
+//
+//     let max=arr[0];
+//     let min=arr[3];
+//     for(let ele of data){
+//         if(ele>max){
+//             // console.log(ele)
+//
+//             max=ele
+//
+//         }
+//         else if(ele<min){
+//             console.log(ele,"ssssss")
+//             min=ele
+//         }
+//
+//     }
+//     return max
+// }
+// const arr =[1, 2, 3, 4, 100];
+// const n=22
+// console.log(maxmin(arr,n));
