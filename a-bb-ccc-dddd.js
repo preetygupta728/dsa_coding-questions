@@ -1,26 +1,34 @@
 let a=""
 let n=4
-// //i/p=nothing
-// //o/p=a-bb-ccc-dddd
+//i/p=nothing
+//o/p=a-bb-ccc-dddd
+
+for(let i=0;i<n;i++){
+    for(let j=1;j<=i+1;j++){
+        a=a+(String.fromCharCode(i+65)).toLowerCase()
+    }
+    console.log(i+1,n,"xd")
+    if(i+1<n){
+        a=a+'-'
+    }
+}
+console.log(a)
+
+// let stir=''
+
+
+// for(let i=0;i<6;i++){
+// for(let j=65;j<65+i;j++){
+// stir+=String.fromCharCode(64+i).toLowerCase()
+// console.log(stir,"dddddas")
 //
-// for(let i=0;i<n;i++){
-//
-//     for(let j=1;j<=i+1;j++){
-//         a=a+(String.fromCharCode(i+65)).toLowerCase()
-//
-//     }
-//     console.log(i+1,n,"xd")
-//
-//     if(i+1<n){
-//         a=a+'-'
-//         // a=a+'\n'
-//     }
 // }
-//
-// console.log(a)
+// if(stir){
+// stir=stir+'-'}
+// }
 
 
-////////////////////////////////
+//----------------------------------------
 let b=""
 //i/p=nothing
 //o/p=
@@ -44,10 +52,7 @@ for(let i=0;i<n;i++){
 console.log(b)
 
 
-///////////////
-
-
-////////////////////////////////
+//---------------------------------
 
 
 let c=""
@@ -72,3 +77,4 @@ for(let i=0;i<n;i++){
 }
 
 console.log(c)
+
