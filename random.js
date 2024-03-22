@@ -127,13 +127,55 @@ console.log(str1,"Sddddaaaa")
 islowerUpper()
 // https://www.interviewbit.com/ibm-interview-questions/
 // pangram check pangram
-let A = ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
 function panagram(){
+let A = ["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"]
+
 A=A.join('').split('')
 console.log("Zz",A)
 
 for(let i='65';i<'91';i++){
-console.log(String.fromCharCode( i).toLowerCase(),A.includes(String.fromCharCode( i).toLowerCase()),"Zz")
+// console.log(String.fromCharCode( i).toLowerCase(),A.includes(String.fromCharCode( i).toLowerCase()),"Zz")
 }
 }
 panagram()
+
+function reverseNumber(num){
+
+let num2=''
+for(let i=0;i<4;i++){
+if(num>0){
+num2=num2+(num%10)
+num=Math.round(num/10)
+}
+}
+return num2
+}
+let num=4321
+reverseNumber(num)
+
+function countcharacter(str){
+str=str.split('')
+let countvar=[];
+let count=1;
+
+for(let i=0;i<str.length;i++){
+console.log(str)
+
+if(!countvar.includes(str[i])){
+countvar.push(str[i])
+}else{
+if(str[i]==str[i+1]){
+count+=1
+}else{
+count+=1
+
+countvar.push(count)
+count=1
+}
+
+}
+}
+countvar=countvar.join('')
+console.log(countvar)
+}
+countcharacter('aaabbbccc')

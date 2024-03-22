@@ -13,3 +13,20 @@ function fibonacci() {
     }
 }
 fibonacci()
+
+
+//--------------
+function fibonacci1() {
+
+let a0=0;
+let a1=1;
+let j=1;
+let str=[a0,a1];
+for(let i=1;i<10;i++){
+let a=str[i-1]+str[i]
+str.push(a)
+}
+console.log(str,"sssss/ss")
+
+}
+fibonacci1()
